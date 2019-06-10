@@ -20,15 +20,20 @@ function accessElementInArray(arr, i) {
   return arr[i];
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(arr) {
+function destructivelyRemoveElementFromBeginningOfArray(array) {
   arr.shift();
   return arr;
 }
 
-function removeElementFromEndOfArray(arr) {
+function destructivelyRemoveElementFromEndOfArray(array) {
+  arr.pop();
+  return arr;
+}
+
+function removeElementFromEndOfArray(array) {
   return arr.slice(0, (array.length - 1));
 }
 
-function removeElementFromBeginningOfArray(arr) {
+function removeElementFromBeginningOfArray(array) {
   return arr.slice(1);
 }
