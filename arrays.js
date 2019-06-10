@@ -37,3 +37,7 @@ function removeElementFromEndOfArray(array) {
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1);
 }
+
+function chocolateBars() {
+  const array = ["snickers", "hundred grand", "kitkat", "skittles"];
+}
